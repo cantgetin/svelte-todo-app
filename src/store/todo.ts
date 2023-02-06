@@ -7,7 +7,6 @@ const createList = () => {
 
     return {
         subscribe,
-
         set: (value: ITodo[]) => {
             window.localStorage.setItem(LIST_NAME, JSON.stringify(value))
             set(value)

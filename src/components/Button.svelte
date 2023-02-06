@@ -10,7 +10,7 @@
     <slot/>
 </button>
 
-<style lang="scss">
+<style>
     .button {
       cursor: pointer;
       background: indianred;
